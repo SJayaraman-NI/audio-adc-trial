@@ -9,7 +9,7 @@ The measurement plugin generate an analog audio signal input to the Device Under
 ![image](res/audio-adc-plugin.png)
 
 
-##Key Features
+## Key Features
 
  - Generates analog audio signal
    - I2S
