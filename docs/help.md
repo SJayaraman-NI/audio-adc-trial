@@ -97,7 +97,7 @@ After following above steps to add measurement service into the Instrument Studi
 2. FR, RMS Levels, THD, THD+N, time domain graphs should be visible without any error.
 
    Frequency Response:
-   ![alt text](images/freq-resp-FR.png)
+   ![alt text](images/freq-resp-fr.png)
 
    RMS Levels:
    ![alt text](images/freq-resp-rms-levels.png)
