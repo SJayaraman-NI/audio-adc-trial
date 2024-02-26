@@ -57,9 +57,11 @@ Note: Please note that the /build folder must not be committed to repo and will 
 6. Once the build process is complete, you should be able to see a new version of package created in Packages folder parallel to build spec.
     
     Packages Folder:
+   
     ![alt text](images/built-packages.png)
 
     Package File:
+   
     ![alt text](images/nipm-package-file.png)
 
 
