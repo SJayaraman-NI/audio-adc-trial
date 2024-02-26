@@ -52,11 +52,12 @@ NI PXIe-7820/21
 ## Software Dependencies
 - NI-DAQmx (2022 Q3 or higher)
 - NI-Digital Audio Acquisition and Generation Toolkit (2023 Q3 or higher)
+- Sound and Vibration Toolkit (2021 or higher) - License Activation required
 - NI-DCPower (Install the version as recommended by Instrument Studio)
 - LabVIEW Runtime Engine (2021 SP1)
 - InstrumentStudio (2023 Q3 or higher)
 - Measurement Link (2023 Q3 or higher)
-- Sound and Vibration Toolkit (2021 or higher) - License Activation required
+
 
 ## Getting Started
 When you are ready to start using the software, check out [this](docs/help.md).
