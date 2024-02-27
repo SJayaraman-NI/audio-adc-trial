@@ -11,7 +11,7 @@ The measurement plugin generate an analog audio signal input to the Device Under
 
 ## Key Features
 
- - Generates analog audio signal
+ - Generates analog audio signal with support for below protocols:
    - I2S
    - Left Justified
    - Right Justified
@@ -24,13 +24,13 @@ The measurement plugin generate an analog audio signal input to the Device Under
    - Dynamic range
    - Gain error
    - Output power
-
+     
 
 ## Hardware Setup
 
 ### Instrumentation
-NI PXIe-4468/63
-NI PXIe-7820/21
+- NI PXIe-4468/63
+- NI PXIe-7820/21
 
 ### Tested Hardware Setup 1
 ![Hardware setup](res/hardware-setup-for-CDB5381.png)
@@ -47,13 +47,13 @@ NI PXIe-7820/21
 
 - NI PXIe-4463
 - NI PXIe-7821
-- TLV320ADC3101 Evaludation Module
+- TLV320ADC3101 Evaluation Module
 
 ## Software Dependencies
 - NI-DAQmx (2022 Q3 or higher)
 - NI-Digital Audio Acquisition and Generation Toolkit (2023 Q3 or higher)
-- Sound and Vibration Toolkit (2021 or higher) - License Activation required
-- NI-DCPower (Install the version as recommended by Instrument Studio)
+- LabVIEW Sound and Vibration Toolkit (2021 or higher) - License Activation required
+- NI-DCPower (2023 Q1 or version recommended by Instrument Studio)
 - LabVIEW Runtime Engine (2021 SP1)
 - InstrumentStudio (2023 Q3 or higher)
 - Measurement Link (2023 Q3 or higher)
