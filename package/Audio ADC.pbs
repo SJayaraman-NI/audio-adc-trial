@@ -1,0 +1,577 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>audio_nipkg_build_spec</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\AC_Audio ADC.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\AC_Audio ADC.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\AC_Audio ADC.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\AC_Audio ADC.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\BuiltUI\AC_Audio ADC_UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\BuiltUI\Frequency Response_Audio ADC_UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Frequency Response_Audio ADC.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Frequency Response_Audio ADC.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Frequency Response_Audio ADC.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Frequency Response_Audio ADC.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i6" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i7" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i8" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i9" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i10" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i11" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i16" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i17" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i18" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i19" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i23" />
+                <SourceItem z:Ref="i24" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
+                <SourceItem z:Ref="i28" />
+                <SourceItem z:Ref="i29" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\AC_Audio ADC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i4" />
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i30" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Frequency Response_Audio ADC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i12" />
+                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i14" />
+                <SourceItem z:Ref="i15" />
+                <SourceItem z:Ref="i25" />
+                <SourceItem z:Ref="i31" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i32" />
+                <SourceItem z:Ref="i33" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i34" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i35" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i36" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i37" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink</DestinationRelativePath>
+                    <Name>MeasurementLink</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i38" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services</DestinationRelativePath>
+                    <Name>Services</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i39" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC</DestinationRelativePath>
+                    <Name>AC_Audio ADC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i40" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\AC_Audio ADC.aliases</DestinationRelativePath>
+                    <Name>AC_Audio ADC.aliases</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i41" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\AC_Audio ADC.exe</DestinationRelativePath>
+                    <Name>AC_Audio ADC.exe</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i42" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\AC_Audio ADC.ini</DestinationRelativePath>
+                    <Name>AC_Audio ADC.ini</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i43" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\AC_Audio ADC.serviceconfig</DestinationRelativePath>
+                    <Name>AC_Audio ADC.serviceconfig</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i44" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i45" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\BuiltUI\AC_Audio ADC_UI.lvlibp</DestinationRelativePath>
+                    <Name>AC_Audio ADC_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i6" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i46" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i47" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i48" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i7" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i49" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i50" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i8" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i51" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i52" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i9" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i53" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i54" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\AC_Audio ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i10" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i55" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i56" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Frequency Response_Audio ADC.aliases</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC.aliases</Name>
+                    <SourceItem z:Ref="i12" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i57" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Frequency Response_Audio ADC.exe</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC.exe</Name>
+                    <SourceItem z:Ref="i13" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i58" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Frequency Response_Audio ADC.ini</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC.ini</Name>
+                    <SourceItem z:Ref="i14" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i59" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Frequency Response_Audio ADC.serviceconfig</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC.serviceconfig</Name>
+                    <SourceItem z:Ref="i15" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i60" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i61" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\BuiltUI\Frequency Response_Audio ADC_UI.lvlibp</DestinationRelativePath>
+                    <Name>Frequency Response_Audio ADC_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i11" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i62" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i63" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i64" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i65" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i66" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i17" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i67" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i68" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i18" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i69" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i70" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Frequency Response_Audio ADC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i19" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>Audio ADC MeasurementLink Plug-In (LabVIEW)</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i71">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>community-audio-adc-labview_1.0.0.21_windows_x64.nipkg</FileName>
+                <Version>1.0.0.21</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>Measurements for Audio ADC using MeasurementLink</Description>
+            <DisplayName>Audio ADC MeasurementLink Plug-In (LabVIEW)</DisplayName>
+            <FileName>community-audio-adc-labview_1.0.0.22_windows_x64.nipkg</FileName>
+            <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/audio-adc-labview</Homepage>
+            <MaintainerEmail>email@mycompany.com</MaintainerEmail>
+            <MaintainerName>Github Community</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>community-audio-adc-labview</PackageName>
+            <PackageRelationships>
+                <PackageRelationship z:Id="i72">
+                    <Constraint>LaterOrEqual</Constraint>
+                    <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
+                    <PackageName>ni-labview-2021-runtime-engine</PackageName>
+                    <Relation>Depends</Relation>
+                    <Version>21.1.2.49154-0+f2</Version>
+                    <VersionType>AutoUpdate</VersionType>
+                </PackageRelationship>
+            </PackageRelationships>
+            <ProductName>MyProduct</ProductName>
+            <ReleaseNotes>Supports AC and Frequency Response Measurements</ReleaseNotes>
+            <Section>Add-Ons</Section>
+            <StoreProduct>true</StoreProduct>
+            <Synopsis>community-audio-adc-labview</Synopsis>
+            <Version>1.0.0.22</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i73">
+            <Distributions>
+                <Distribution z:Ref="i35" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i74">
+            <Definition z:Id="i75">
+                <Description i:nil="true" />
+                <Name>TestStand Options</Name>
+            </Definition>
+            <HasDefaultValues>true</HasDefaultValues>
+            <Value z:Id="i76" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i77" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i78" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i79" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i80" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i81" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i82" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i83" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i84" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i85" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i86" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i87" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i88" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i89" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i90" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i91" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i92" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i93" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i94" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i95" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i96" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i97" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i98" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i99" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i100" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i101" i:type="BooleanConfigurationOptionValue" />
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>
